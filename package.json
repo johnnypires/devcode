@@ -1,0 +1,26 @@
+{
+  "name": "devcode",
+  "version": "1.0.0",
+  "description": "git config --global user.email \"johnny_po@hotmail.com\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnypires/devcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnypires/devcode/issues"
+  },
+  "homepage": "https://github.com/johnnypires/devcode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
