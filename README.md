@@ -31,3 +31,9 @@ git pull origin master –allow-unrelated-histories (só em caso de erro)
 Em seguida use esse novamente
 
 $ git push origin master
+
+************************************
+HEROKU LOGIN
+*************************************
+heroku login //abrir no cmd
+heroku create // criar endereço site
