@@ -4,7 +4,7 @@
   "description": "git config --global user.email \"johnny_po@hotmail.com\"",
   "main": "server.js",
   "scripts": {
-    "start": "server.js"
+    "start": "node server"
   },
   "repository": {
     "type": "git",
