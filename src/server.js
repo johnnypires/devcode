@@ -12,7 +12,7 @@ server.use(routes);
 
 server.set("view engine", "njk");
 
-nunjucks.configure("views", {
+nunjucks.configure("src/views", {
     express: server,
     autoescape: false
 });
@@ -22,10 +22,17 @@ server.get("/", function(req, res) {
     return res.render("index")
 })
 
-server.listen(porta);
+server.get("/rca", function(req, res) {
+    
+    return res.render("views/rca")
+})
 /*
 server.listen(3000, function() {
     console.log("server is running")
 })*/
+
+
+server.listen(porta);
+
 
 

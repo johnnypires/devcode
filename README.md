@@ -37,3 +37,9 @@ HEROKU LOGIN
 *************************************
 heroku login //abrir no cmd
 heroku create // criar endereço site
+heroku git:remote -a tranquil-coast-91560 // subir arquivo
+************* // alterações***********
+$ git add.
+$ git commit -am "torná-lo melhor"
+$ git push heroku master
+
