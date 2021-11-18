@@ -16,24 +16,27 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   outline: none;
-  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  
 }
 
-/*html,*/
+html,
 body {
- width: 100%;
+  min-height: 100vh;
 
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 /*********CSS HEADER*******************/
 #header {
-
-  box-sizing: border-box;
-  
+  width: 100%;
   background: var(--blue);
   height: 70px;
-  padding: 1rem;
+  padding: 32px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,6 +80,7 @@ body {
 #btn-mobile {
   display: none;
 }
+
 
 section .card-banner {
   width: 100%;
