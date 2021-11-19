@@ -81,6 +81,10 @@ body {
   display: none;
 }
 
+.card-banner img {
+  width: 100%;
+}
+
 
 section .card-banner {
   width: 100%;
