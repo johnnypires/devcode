@@ -24,7 +24,7 @@
 
 html,
 body {
-  min-height: 100vh;
+  width: 100%;
 
 }
 body {
@@ -94,14 +94,6 @@ section .card-banner {
   justify-content: space-around;
 }
 
-
-/***********CSS MOBILE*********************/
-@media (max-width: 600px) {
-  #btn-mobile {
-    display: block;
-  }
-}
-
 .content {
   max-width: 1000px;
   min-width: 300px;
@@ -110,6 +102,17 @@ section .card-banner {
   flex-direction: column;
   padding: 10px;
 }
+
+/***********CSS MOBILE*********************/
+@media (max-width: 600px) {
+  #btn-mobile {
+    display: block;
+  }
+}
+
+
+
+
 
 .brand {
   font-size: 24px;
