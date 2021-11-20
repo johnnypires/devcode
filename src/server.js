@@ -27,12 +27,12 @@ server.get("/rca", function(req, res) {
     return res.render("views/rca")
 })
 
-server.listen(3000, function() {
+/*server.listen(3000, function() {
     console.log("server is running")
-})
+})*/
 
 
-/*server.listen(porta);*/
+server.listen(porta);
 
 
 
