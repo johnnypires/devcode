@@ -18,18 +18,16 @@
   padding: 0px;
   box-sizing: border-box;
   outline: none;
-  text-decoration: none;
+  font-family: "Roboto", sans-serif;
   
 }
+
 
 html,
 body {
   width: 100%;
+}
 
-}
-body {
-  font-family: "Roboto", sans-serif;
-}
 
 /*********CSS HEADER*******************/
 #header {
@@ -41,6 +39,8 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 #buttons {
   border: 1px solid var(--blue);
@@ -104,11 +104,14 @@ section .card-banner {
 }
 
 /***********CSS MOBILE*********************/
+
 @media (max-width: 600px) {
   #btn-mobile {
     display: block;
   }
 }
+
+
 
 
 
